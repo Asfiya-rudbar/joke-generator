@@ -1,0 +1,94 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+   background-color: lavender;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(177, 114, 206);
+     text-align: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(143, 140, 140, 0.4);
+}
+
+h2 {
+    
+    font-size: 2rem;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(128, 126, 126, 0.4);
+    font-weight: lighter;
+    letter-spacing: 1.5px;
+}
+
+
+button {
+    background-color: darkorchid;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px; 
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(177, 114, 206);
+    transform: translateY(-3px);
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+
+p {
+    font-size: 1.5rem;
+    background-color: rgb(177, 114, 206);
+    color: rgb(227, 218, 231);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    max-width: 650px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+p:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+button:hover {
+    background-color: rgb(177, 114, 206);
+    transform: translateY(-5px); /* Lifting effect */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2); /* More pronounced shadow */
+}
+
+button:active {
+    transform: translateY(2px); /* Subtle pressing effect */
+}
+
+
